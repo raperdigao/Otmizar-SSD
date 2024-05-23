@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Estilizando o Header */
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.logo-flex {
+    
+    width: 25vw;
+    height: 100px;
+}
+
+.logo-flex>img {
+    width: 10vw;
+    height: 100px;
+    border-radius: 25px;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    flex-wrap: wrap;
+    width: 30vw;
+    height: 100px;
+}
+
+.nav-flex h2 {
+    color: white;
+}
+
+.whatsapp-flex {
+    
+    width: 25vw;
+    height: 100px;
+ 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.whatsapp-flex>img {
+    width: 10vw;
+    height: 100px;
+    border-radius: 25px;
+}
+
+/* Estilizar os artigos */
+
+.article-flex {
+    margin-top: 30px;
+}
+.article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.titulo-flex {
+    width: 25vw;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-flex > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-article {
+    width: 50vw;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
